@@ -4157,10 +4157,10 @@ meta.foundation-mq-topbar {
     background: black;
     color: #ff3333; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
-    color: white; }
+    background: #f0f0f0;
+    color: black; }
     .top-bar-section ul li.active > a:hover {
-      background: #0078a0;
+      background: #582c00;
       color: white; }
   .top-bar-section .has-form {
     padding: 13.33333px; }
@@ -4286,10 +4286,10 @@ meta.foundation-mq-topbar {
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 13.33333px;
       line-height: 40px;
-      color: white;
-      background: #008cba; }
+      color: black;
+      background: #f0f0f0; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0; }
+        background: #582c00; }
     .top-bar-section .has-dropdown > a {
       padding-right: 33.33333px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -4369,8 +4369,8 @@ meta.foundation-mq-topbar {
     background: black;
     color: #ff3333; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
-    color: white; }
+    background: #f0f0f0;
+    color: black; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
     position: static !important;
