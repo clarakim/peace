@@ -3237,13 +3237,13 @@ ul.pagination {
   margin-left: -0.3125rem; }
   ul.pagination li {
     height: 1.5rem;
-    color: #222222;
+    color: #663300;
     font-size: 0.875rem;
     margin-left: 0.3125rem; }
     ul.pagination li a {
       display: block;
       padding: 0.0625rem 0.625rem 0.0625rem;
-      color: #999999;
+      color: #663300;
       -webkit-border-radius: 3px;
       border-radius: 3px; }
     ul.pagination li:hover a,
@@ -3255,7 +3255,7 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
       background: transparent; }
     ul.pagination li.current a {
-      background: #008cba;
+      background: #663300;
       color: white;
       font-weight: bold;
       cursor: default; }
@@ -4160,7 +4160,7 @@ meta.foundation-mq-topbar {
     background: #f0f0f0;
     color: black; }
     .top-bar-section ul li.active > a:hover {
-      background: #582c00;
+      background: #cecece;
       color: white; }
   .top-bar-section .has-form {
     padding: 13.33333px; }
@@ -4289,7 +4289,7 @@ meta.foundation-mq-topbar {
       color: black;
       background: #f0f0f0; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #582c00; }
+        background: #cecece; }
     .top-bar-section .has-dropdown > a {
       padding-right: 33.33333px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -5517,7 +5517,8 @@ nav a {
   font-family: 'Josefin Sans', sans-serif; }
 
 h1 {
-  font-size: 1.7rem; }
+  font-size: 1.6rem;
+  color: #663300; }
 
 h2 {
   font-size: 1.4rem; }

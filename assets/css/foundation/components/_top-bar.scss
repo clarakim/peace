@@ -43,8 +43,8 @@ $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
 $topbar-link-bg-hover: #000 ;
 $topbar-link-bg-active: #f0f0f0;
-$topbar-link-bg-active-hover: scale-color(#663300, $lightness: -14%) !default;
-$topbar-link-font-family: 'Josefin Sans' , sans-serif ; 
+$topbar-link-bg-active-hover: scale-color(#f0f0f0, $lightness: -14%) !default;
+$topbar-link-font-family:'Josefin Sans', sans-serif;
 $topbar-link-padding: $topbar-height / 3 !default;
 
 $topbar-button-font-size: 0.75rem;
