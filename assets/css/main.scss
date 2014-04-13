@@ -1,0 +1,551 @@
+@import "normalize";
+@import "foundation";
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+ /* My Variables*/
+$my-background-color:#fff;
+$my-primary-color: #000 ;
+$my-font-stack: 'Josefin Sans', san-serif ;
+
+
+/*fonts */
+
+@font-face {
+    font-family:'sciflysans';
+    src: url('../font/scifly-sans-webfont.eot');
+    src: url('.../font/scifly-sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/scifly-sans-webfont.woff') format('woff'),
+         url('../font/scifly-sans-webfont.ttf') format('truetype'),
+         url('../font/scifly-sans-webfont.svg#sciflysans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+ font-size: 1.1 rem;
+
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+}
+
+
+/*centering links in foundation topbar*/
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}
+
+
+
+.top-bar {
+    box-shadow: 3px,3px,3px rgba(0,0,0,0.6);
+}
+
+* {
+    font-family: $my-font-stack;
+}
+
+h1, h2, h3,h4 {
+    font-family:'Montserrat', sans-serif;
+    
+}
+
+nav a,{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+
+    font-size: 1.7rem;
+
+}
+
+h2 {
+    font-size:1.4rem;
+}
+
+h3{
+    font-size: 1.1rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+.container {
+    margin: 0px auto;  
+    background-color: #d0d1d2;
+
+}
+
+
+.heading {
+    background: url(../img/leather-nav.jpg);
+    background-repeat:repeat;
+    height: 230px;
+    box-shadow: 3px 3px 6px grey;
+    padding-top: 30px; 
+
+}
+
+.full-width {
+    width:100%;
+    min-width:100%;
+}
+
+.content-wrapper {
+    background-color: #f0f0f0;
+}
+
+nav{
+    margin-top: 38px;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.space {
+    padding:20px;
+   
+}
+
+.space-2 {
+    padding:35px;
+}
+
+/*.white{
+    background-color: rgba(242,242,242,0.7);
+    box-shadow: 1px 1px 5px grey;
+    
+}*/
+
+.contents {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+#main-image{
+    
+    min-width: 100%;
+}
+
+
+
+.notice-background{
+    background-color:white;
+    width: 100%;
+}
+
+.text-box a  {
+    color: black;   
+}
+
+.right {
+    background-color: #D4D4D4;
+    
+}
+
+
+
+.tickets-box h3 , .tickets-box h4 {
+    color:  #D4D4D4;
+
+}
+
+.tickets-box .text-box {
+    color:white;
+    background-color: #D4D4D4;
+    padding: 3px;
+}
+
+.tickets-box {
+    margin-top:0;
+}
+
+.twittery {
+    margin-top:55px;
+}
+
+.pagination-centered {
+    margin-top:15px;
+}
+
+.category {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.video-frame
+{
+    width:100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.grey{
+    color: white; 
+    background-color: grey;
+    padding: 2px;
+}
+
+
+.peace-icon {
+    color:white;
+    width: 50px ;
+    fill: grey;
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+
+}
+
+.category a:hover .peace-icon { 
+    zoom: 1;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+
+}
+
+.category h2 {
+    color:grey;
+    font-size: 1rem;
+}
+
+.category .bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top-bar {
+    border-style: solid;
+    border-top: 1px ; 
+    border-bottom: 1px;
+    border:white;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    
+}
+
+#logo2{
+    display: block;
+    margin: 5px auto;
+    width: 100px;
+}
+
+
+/*Profile page*/
+
+.profile {
+    position: relative;
+}
+
+.discography {
+    margin-top: 50px;
+}
+
+
+
+.profile h4, .profile h3, .profile i {
+    color: white;
+}
+
+
+
+.profile .name-box {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 125px;
+    
+}
+
+#profile-image {
+    
+    width: 100%;
+    
+}
+
+.title {
+    text-align: center;
+}
+
+
+/*shows page*/
+
+.calendar-height {
+    max-height: 320px;
+}
+
+.category {
+    background: url(../img/leather-nav.jpg);
+}
+
+footer {
+    width: 100%;
+    height: 40px;   
+}
+
+.footer-background {
+     background: url(../img/leather-nav.jpg);
+     width:100%;
+     height:50px;
+}
+
+
+/*video page*/
+
+.title-caption {
+    text-align:center;
+    
+
+}
+
+.title-caption h2{
+    color: white;
+}
+
+.video .video-frame{
+    background-color: black; 
+}
+
+.video-frame {
+    margin-bottom: 15px;
+}
+
+/* sign up page */
+
+
+
+.sign-up-form {
+    
+    margin-top:25px;  
+    padding-top: 15px;
+}
+.form-text {
+    margin-top: 10px;
+    text-align: center;
+    background-color: grey;
+}
+
+.logo-image {
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
