@@ -219,12 +219,21 @@
         <script src="assets/js/foundation/foundation.orbit.js"></script>
 
 
+        
+      
         <script>
-
-        console.log ("we are here");
-
-        $(document).foundation();
+        $(document).foundation({
+          orbit: {
+            animation: 'fade', 
+            timer_speed: 1500,
+            pause_on_hover: false,
+            animation_speed: 500,
+            navigation_arrows: true,
+            bullets: true
+          }
+        }); 
         </script>
+
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
